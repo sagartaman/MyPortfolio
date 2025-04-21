@@ -1,0 +1,140 @@
+body {
+    font-family: "Lato", sans-serif !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #f4f4f4a6 !important;
+  }
+
+  .navbar{
+    height: 4rem !important;
+    background-color: #fff !important;
+  }
+
+  .navbar-brand{
+    padding-left: 2rem !important;
+  }
+
+.navbar-nav{
+  padding-right: 4.5rem !important;
+}
+
+.navbar-nav a:hover{
+  font-weight: 700 !important;
+}
+
+  .img-one{
+    height: 23rem !important;
+    width: 23rem !important;
+    border: none !important;
+    border-radius: 50% !important;
+    object-fit: cover;
+  }
+
+/* CSS for the typing animation */
+.animated-text {
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: typing 3.5s steps(40, end) infinite, blink-caret .75s step-end infinite;
+}
+
+/* Typing animation */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+/* Cursor blink animation */
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: orange; }
+}
+
+  .img-two{
+    height: 22rem !important;
+    width: 20rem !important;
+    border: none !important;
+    border-radius: 1rem !important;
+    object-fit: cover;
+  }
+
+
+  .custom-card {
+    width: 18 rem !important; 
+    height: auto; 
+    margin: 0 auto; 
+  }
+
+  .custom-card .card-img-top {
+    height: 18rem !important; 
+    object-fit: cover; 
+  }
+
+  .custom-card .card-body {
+    padding: 15px;
+  }
+
+
+  .full-screen-section {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f8f9fa; /* Light gray background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  /* Skill card hover effect */
+  .skill-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .skill-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+
+
+/* footer */
+.f-info-links a {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.f-info-links {
+  width: 100%;
+}
+
+.f-info-socials {
+  width: 100%;
+}
+
+.f-info-socials i {
+  font-size: 1.2 rem;
+  margin-right: 1rem;
+  margin-top: 0.85rem;
+}
+
+.f-info {
+  text-align: center;
+  height: 14rem;
+  background-color: #111111c9 !important;
+  color: #fff !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-evenly;
+}
+
